@@ -122,6 +122,11 @@ else if (estados=='direcciones3') {
     }
     frame=elegirFrame(framesdesaparece, 5)
   }
+    else if (estados=='direcciones4') {
+   x=866;
+    
+    frame=elegirFrame(framesdesaparece, 5)
+  }
   image(frame, x, y, frame.width * escala, frame.height * escala);
    image(fondo2, 0, 0);
   image(fondo3, 0, 0);
